@@ -123,6 +123,10 @@ nav ul li{
     margin-left: 500px;
 }
 
+.background {
+    justify-content: center;
+}
+
 .background p {
     color: #FFF;
     text-align: center;
@@ -130,7 +134,6 @@ nav ul li{
     font-size: 70px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
 }
 
 .background p br {
@@ -213,40 +216,17 @@ nav ul li{
     background-color: #819468;
 }
 
-.lesson-wrapper {
-    height: 100%;
-    padding-bottom: 80px;
-    text-align: center;
+.container-box {
+    background-color: #819468;
+    justify-content: center;
+    align-items: center;
 }
 
-
-.lesson {
-    width: 25%;
+.main-box img {
+    justify-content: center;
 }
 
-.lesson-icon {
-    position: relative;
-}
-
-
-.lesson-icon p {
-    position: absolute;
-    top: 90px;
-    font-size: 48px;
-    width: 100%;
-    color: white;
-}
-
-.txt-contents {
-    text-align: center;
-    width: 80%;
-    display: inline-block;
-    margin-top: 20px;
-    font-size: 28px;
-    color: #FFF;
-}
-
-/* FIFTH SECTION = MATERI PEMBELAJARAN */
+/* FIFTH SECTION = PROGRAM */
 .fifth-section {
     background-color: #FFF;
 }
@@ -260,14 +240,13 @@ nav ul li{
     height: 500px;
     padding-bottom: 80px;
     background-color: #f7f7f7;
-    /* Ubah property text-align ke center */
     text-align: center;
 }
 
 .heading {
     padding-top: 60px;
     padding-bottom: 30px;
-    color: #5f5d60;
+    color: #4B5F43;
 }
 
 .heading h2 {
@@ -295,7 +274,7 @@ nav ul li{
     display: inline-block;
     margin-top: 20px;
     font-size: 15px;
-    color: #b3aeb5;
+    color: #4B5F43;;
 }
 
 /* FOOTER SECTION = FOOTER*/
