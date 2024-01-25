@@ -1,0 +1,293 @@
+
+body {
+    font-family: Arial, sans-serif ;
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER NAVIGATION */
+header {
+    background-color: #ADB191;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo img {
+    width: 10%; /* Sesuaikan ukuran logo */
+    height: 10%;
+    margin-right: 10px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+li {
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul li a:hover{
+    color: #51693A;
+    transition: 0.3s;
+}
+
+/* Dropdown style */
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    padding: 15px;
+    background-color: #7f906e77;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 8px;
+}
+
+.dropdown-content a {
+    display: flex;
+    margin: 0 10px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Media queries */
+@media only screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .logo {
+        margin-bottom: 10px;
+    }
+
+    nav {
+        margin-top: 10px;
+    }
+
+    ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+/* MAIN CONTENT */
+
+/* TITLE */
+.title h1 {
+    color: #595145;
+    text-align: center;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.title p {
+    text-align: center;
+    font-size: 16px;
+    color: #425E4C;
+    font-style: bold;
+}
+
+/* GALERI */
+
+.grid {
+    margin-top: 10px;
+}
+
+.fotocard{
+    max-width: 80rem;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card-description {
+    padding: 15px;
+}
+
+.card-description h3 {
+    margin-top: 0;
+}
+
+.card-description p {
+    margin-bottom: 0;
+}
+
+.fotosan1{
+    background-color: pink;
+    margin-bottom: -15rem;
+    background-repeat:no-repeat;
+    width: auto;
+    height: 50rem;
+    background-size: 25rem;
+}
+
+
+/* FOOTER */
+footer {
+    background-color: #ADB191;
+    align-items: center;
+    text-align: center;
+}
+
+.atas {
+    border-bottom: 3px solid #7F906E;
+    padding: 3rem;
+}
+
+/* SISI KIRI */
+.sisi-kiri {
+    line-height: 0.5;
+    width: 35%; 
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-right: 3px solid #7F906E;
+    float: left;
+}
+
+.sisi-kiri img{
+    width: 20%;
+    height: 20%;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+}
+
+.sisi-kiri h3{
+    font-size: 30px;
+}
+.sisi-kiri h4{
+    font-size: 25px;
+}
+.sisi-kiri p{
+    font-size: 20px;
+}
+
+/* SISI TENGAH */
+.sisi-tengah {
+    margin: 10px;
+    float: left;
+    padding-left: 10px;
+    color: #fff;
+}
+
+.sisi-tengah h3 {
+    text-align: left;
+    font-size: 30px;
+    color: #425E4C;
+    margin-top: 15px;
+}
+
+.contact-icon {
+    display: flex;
+}
+
+.contact-icon p {
+    text-align: center;
+    align-content: center;
+    
+    margin: 10px;
+}
+
+.email-icon {
+    display: flex;
+}
+
+.email-icon p {
+    text-align: center;
+    margin-left: 13px;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.sisi-tengah .contact-icon {
+    padding-bottom: 10px;
+}
+
+.sisi-tengah .email-icon {
+    padding-bottom: 10px;
+}
+
+/* SISI KANAN */
+.sisi-kanan {
+    text-align: left;
+    margin: 10px;
+}
+
+
+.sisi-kanan h3 {
+    font-size: 30px;
+    color: #425E4C;
+    justify-content: center;
+    align-content: center;
+    margin-left: 60rem;
+}
+
+.sisi-kanan .Menu-content a {
+    margin-left: 110px;
+    line-height: 1.5;       
+}
+
+
+.bawah {
+    color: #fff;
+    width: 100%;
+    padding-bottom: 1px;
+}
+
+.copyright p {
+    text-align: right;
+    margin-right: 10px;
+}
+
