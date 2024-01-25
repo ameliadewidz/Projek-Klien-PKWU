@@ -24,4 +24,4 @@ function prevSlide() {
     showSlide(currentIndex - 1);
 }
 
-setInterval(nextSlide, 3000); // Ganti gambar setiap 3 detik (sesuaikan dengan kebutuhan)
+setInterval(nextSlide, 3000); 

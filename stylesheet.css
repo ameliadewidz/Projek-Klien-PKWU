@@ -5,8 +5,7 @@
 }
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
-    width: 1400px;
-    height: 1029px;
+    width: 100%;
     padding: 0;
     margin: 0;
 }
@@ -21,6 +20,7 @@ body {
     padding: 0 10px;
     width: 100%;
     box-sizing: border-box;
+    object-fit: cover;
 }
 
 .logo img {
@@ -28,6 +28,7 @@ body {
     display: flex;
     height: 10%;
     width: 10%;
+    object-fit: cover;
 }
 
 .navlist {
@@ -124,24 +125,25 @@ nav ul li{
 }
 
 .background {
+    display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .background p {
     color: #FFF;
-    text-align: center;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-size: 70px;
     font-style: normal;
     font-weight: 400;
 }
 
-.background p br {
+.background p  {
     color: #FFF;
     text-align: center;
     font-size: 90px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 400;
     line-height: normal;
 }
 
@@ -171,44 +173,66 @@ nav ul li{
     width: 100%;
     overflow: hidden;
 }
-/* Sisi kiri (teks) */
+
 .left-side {
     flex: 1;
     background-color: #ffffff;
     padding: 20px;
 }
-/* Sisi kanan (gambar) */
+
+.center-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.left-side p {
+    font-size: 28px;
+}
+
 .right-side {
     flex: 1;
     background-color: #ffffff;
     text-align: center;
     padding: 20px;
 }
-/* Style untuk gambar */
+
 .image {
     max-width: 100%;
     max-height: 100%;
+    object-fit: cover;
 }
 
 /* THIRD SECTION = HADIST */
 .image-text-container {
     display: flex;
+    justify-content: center;
     align-items: center;
-    margin: 20px;
+    padding: 13px 170px;
     background-color: #E1E9D5;
 }
 
-/* Style untuk gambar */
 .image {
     max-width: 100%;
     max-height: 100%;
     margin: 10px;
 }
 
-/* Style untuk teks */
 .text {
+    justify-content: center;
+    align-items: center;
     font-size: 28px;
     margin: 0 20px;
+}
+
+.text p {
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* FOURTH SECTION = VISI MISI */
@@ -217,14 +241,10 @@ nav ul li{
 }
 
 .container-box {
-    background-color: #819468;
     justify-content: center;
     align-items: center;
 }
 
-.main-box img {
-    justify-content: center;
-}
 
 /* FIFTH SECTION = PROGRAM */
 .fifth-section {
@@ -255,7 +275,7 @@ nav ul li{
 
 .main-content {
     float: left;
-    width: 25%;
+    width: 100%;
 }
 
 .main-icon {
